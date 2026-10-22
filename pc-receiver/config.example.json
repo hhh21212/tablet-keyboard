@@ -1,0 +1,7 @@
+{
+  "hdc": "C:\\Path\\To\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\hdc.exe",
+  "serial": "YOUR_DEVICE_SERIAL",
+  "bundle": "com.example.tabletkeyboard",
+  "ability": "EntryAbility",
+  "tcp": "127.0.0.1:5959"
+}

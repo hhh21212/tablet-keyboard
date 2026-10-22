@@ -1,0 +1,13 @@
+# HarmonyOS / DevEco
+harmonyos-app/.hvigor/
+harmonyos-app/.idea/
+harmonyos-app/**/build/
+harmonyos-app/**/oh_modules/
+harmonyos-app/build-profile.json5
+
+# Python
+__pycache__/
+*.pyc
+pc-receiver/autoconnect.log
+pc-receiver/autoconnect.lock
+pc-receiver/config.json

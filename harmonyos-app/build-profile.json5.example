@@ -1,0 +1,51 @@
+// 使用说明：把本文件复制为 build-profile.json5，并将 YOUR_* 替换成你自己的签名证书路径与密码。
+// 真实的 build-profile.json5 已被 .gitignore 排除，不会提交到仓库。
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\YOUR_NAME\\.ohos\\config\\YOUR_SIGNING.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "YOUR_KEY_PASSWORD",
+          "profile": "C:\\Users\\YOUR_NAME\\.ohos\\config\\YOUR_SIGNING.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\YOUR_NAME\\.ohos\\config\\YOUR_SIGNING.p12",
+          "storePassword": "YOUR_STORE_PASSWORD"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

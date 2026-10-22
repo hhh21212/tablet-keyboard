@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "平板键盘"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "平板键盘"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "平板键盘"
+    },
+    {
+      "name": "microphone_reason",
+      "value": "用于语音输入，采集麦克风声音并转成文字"
+    }
+  ]
+}
